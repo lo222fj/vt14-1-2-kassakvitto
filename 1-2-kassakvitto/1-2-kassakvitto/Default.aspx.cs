@@ -18,6 +18,7 @@ namespace _1_2_kassakvitto
         {
             if (IsValid)
             {
+                SumTextBox.Text="Plupp";
             };
         }
     }
