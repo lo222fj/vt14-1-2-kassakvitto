@@ -5,3 +5,39 @@
 h1 {
     border-bottom: 1em solid rgba(225, 225, 232, 0.81);
 }
+p {
+    margin: 0.5em 0 0.5em 0;
+}
+#upperPartDiv {
+    border-bottom: 0.2em groove rgba(225, 225, 232, 0.81);
+    padding-bottom: 0.5em;
+}
+
+h1, .header1 {
+    font-size: 2em;
+    font-weight: 700;
+}
+#calculatedPanel {
+    border-bottom: 0.1em dashed #808080;
+    border-top: 0.1em dashed #808080;
+    padding: 0.3em 0 0.3em 0;
+}
+.right {
+    float: right;
+}
+.recieptLabel {
+    clear: both;
+}
+.center {
+    text-align: center;
+}
+#reciept {
+    float: left;
+    border: solid 0.1em black;
+    margin-top: 2em;
+    padding: 0.5em;
+    background-color:rgba(225, 225, 232, 0.81);
+}
+.aYellow {
+    background-color: yellow;
+}

@@ -18,8 +18,14 @@ namespace _1_2_kassakvitto
         {
             if (IsValid)
             {
-                SumTextBox.Text="Plupp";
-            };
+               
+                var Receipt = new Receipt(double.Parse(SumTextBox.Text));
+                PlaceHolder1.Visible = true;
+                subTotal.Text=String.Format("{0:c}", Receipt.Subtotal);
+                discountRate.Text = String.Format("{0:p0}", Receipt.DiscountRate);
+                moneyOff.Text = String.Format("{0:c}", Receipt.MoneyOff);
+                total.Text = String.Format("{0:c}", Receipt.Total);
+             };
         }
     }
 }
